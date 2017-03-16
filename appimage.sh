@@ -57,3 +57,9 @@ Categories=Programming;
 EOF
 
 cd ..
+
+wget "https://github.com/probonopd/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage"
+chmod a+x appimagetool-x86_64.AppImage
+
+./appimagetool-x86_64.AppImage Pharo.AppDir
+
